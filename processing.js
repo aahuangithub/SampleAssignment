@@ -17,6 +17,7 @@
       window.console.log("Processing.js: " + msg)
     };
     return nop
+    
   }();
   var ajax = function(url) {
     var xhr = new XMLHttpRequest;
